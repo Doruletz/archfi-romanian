@@ -47,3 +47,4 @@ You can test your script with this command :
 Example :
 
     sh archfi -t matmoul master
+# archfi-romanian
