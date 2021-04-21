@@ -1,0 +1,115 @@
+# Arch Linux Fast Install (archfi)
+# --------------------------------
+# project    : https://github.com/MatMoul/archfi
+# language   : Romanian (Română)
+# translator : Doruletz (pseudo, name or e-mail.)
+# notes      : misc text...
+
+
+
+locale=ro_RO.UTF-8
+#font=
+
+txtexit="Ieșire"
+txtback="Înapoi"
+txtignore="Ignoră"
+
+txtselectserver="Selectați sursa serverului :"
+
+txtmainmenu="Meniu Principal"
+txtlanguage="Limba"
+txtsetkeymap="Selectați Aspectul Tastaturii"
+txteditor="Editor de text"
+txtdiskpartmenu="Partiționare dispozitive (discuri)"
+txtselectpartsmenu="Selectați partițiile și instalați"
+txthelp="Ajutor"
+txtchangelog="Jurnal de schimbări - Changelog"
+txtreboot="Reporniți calculatorul"
+
+txtautoparts="Partiționare Automată"
+txteditparts="Editați Partițiile"
+
+txtautopartsconfirm="Selectați dispozitivul : %1\n\nToate datele vor fi șterse ! \n\nContinuați ?"
+
+txtautopartclear="Ștergeți toate datele de pe partiție"
+txtautopartcreate="Creați %1 partiția"
+txthybridpartcreate="Setare hibridă MBR"
+txtautopartsettype="Stabiliți %1 tipul partiției"
+
+txtselectdevice="Selectați %1 dispozitivul :"
+txtselecteddevices="Dispozitive selectate :"
+
+txtformatmountmenu="Formatați și montați"
+txtformatdevices="Formatați dispozitivele"
+txtformatdevice="Formatați dispozitivul"
+txtmount="Montați"
+txtunmount="Demonatați"
+txtmountdesc="Instalare sau configurare"
+
+txtformatdeviceconfirm="Atenție, toate datele de pe dispozitivele alese vor fi șterse ! \nFormatați dispozitivele ?"
+
+txtselectpartformat="Selectați formatul partiției pentru %1 :"
+txtformatingpart="Formatați partiția %1 ca"
+txtcreateluksdevice="Creere dispozitiv luks :"
+txtopenluksdevice="Deschideți dispozitivul luks :"
+txtluksdevicecreated="dispozitivul luks a fost creat !"
+
+txtinstallmenu="Meniu de instalare"
+
+txtarchinstallmenu="Meniu de instalare Arch"
+
+txtselectmirrorsbycountry="Selectați serverele după țară"
+txtselectcountry="Selectați țara"
+txteditmirrorlist="Editați lista de servere"
+txtinstallarchlinux="Instalare Arch Linux"
+txtinstallarchlinuxkernel="Nucleu (Kernel)"
+txtinstallarchlinuxfirmwares="Firmwares"
+txtinstallarchlinuxfilesystems="Sisteme de fișiere"
+txtinstallarchlinuxcustompackagelist="Listă de pachete personalizate"
+txtconfigarchlinux="Configurare Arch Linux"
+
+txtsethostname="Alegeți numele calculatorului"
+txtsetfont="Alegeți Font"
+txtsetlocale="Alegeți Localizarea"
+txtsettime="Alegeți data și ora"
+txtsetrootpassword="Alegeți parola contului de administrator root"
+
+txthwclock="Ceas Hardware :"
+txthwclockutc="UTC"
+txthwclocklocal="Local"
+
+txtbootloader="Încărcător de pornire Bootloader"
+txtbootloadermenu="Alegeți încărcătorul de pornire Bootloader"
+
+txtefibootmgr="efibootmgr este necesar pentru calculatoarele EFI."
+
+txtbootloadergrubmenu="Meniu instalare Grub"
+txtrungrubmakeconfig="Rulați grub-mkconfig ?"
+txtgrubluksdetected="Partiție root criptată !\n\nAdăugați cryptdevice= la GRUB_CMDLINE_LINUX în /etc/default/grub ?"
+
+txtbootloadersyslinuxmenu="Meniu de instalare Syslinux"
+txtsyslinuxaddefibootmgr="Instalare EFI necesită efibootmgr"
+txtsyslinuxaddgptfdisk="Discurl GPT necesită gptfdisk"
+txtsyslinuxaddmtools="FAT boot part necesită mtools"
+
+txtbootloadersystemdmenu="Meniu instalare Systemd-boot"
+
+txtbootloaderrefindmenu="Meniu instalare  rEFInd"
+
+txtextrasmenu="Adiționale"
+
+txtoptional="Opțional"
+txtrecommandeasyinst="Recomandat pentru ușurarea install"
+txtset="Alegeți %1"
+txtgenerate="Generați %1"
+txtedit="Editați %1"
+txtinstall="Instalați %1"
+txtenable="Permite %1"
+
+txtpressanykey="Apăsați orice tastă pentru a continua."
+
+txtarchdidesc="Script complet pentru instalarea unui mediu Desktop"
+txtinstallarchdi="Instalarea unui mediu Desktop Arch Linux (archdi) este cel de al doilea script care vă poate ajuta la instalarea unui calculator complet funcțional.\n\nÎl puteți lansa sau instala. Alegeți în meniul următor.\n\nInstalatorul de mediu Desktop Arch Linux este dependent de două utilitare : wget și libnewt.\n\npacstrap wget libnewt ?"
+txtarchdiinstallandlaunch="Instalați și rulați archdi"
+txtarchdiinstall="Instalați archdi"
+txtarchdilaunch="Rulați archdi"
